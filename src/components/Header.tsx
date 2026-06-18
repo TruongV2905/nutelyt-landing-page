@@ -27,7 +27,7 @@ export default function Header() {
           <img
             src="/logo_transparent.png"
             alt="Nutelyt Logo"
-            className="w-[200px] h-auto object-contain"
+            className="w-[160px] h-auto object-contain"
           />
         </a>
 
