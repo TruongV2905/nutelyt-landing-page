@@ -68,7 +68,7 @@ export default function Footer() {
           {/* BOTTOM */}
           <div className="mt-10 border-t border-slate-200/80 pt-6">
             <div className="flex flex-col gap-3 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-              <p>© 2024 Nutelyt AI. Bản quyền thuộc về Nutelyt.</p>
+              <p>© 2026 Nutelyt AI. Bản quyền thuộc về Nutelyt.</p>
 
               <p className="inline-flex items-center gap-2">
                 <span className="h-2 w-2 rounded-full bg-emerald-500" />
