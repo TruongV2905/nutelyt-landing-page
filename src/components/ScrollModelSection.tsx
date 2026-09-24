@@ -43,7 +43,7 @@ const sections = [
     label: "03",
     title: "Gợi ý bữa ăn phù hợp",
     description:
-      "Nutelyt đề xuất lựa chọn tốt hơn, cảnh báo thành phần cần hạn chế và gợi ý khẩu phần phù hợp trong ngày.",
+      "Nutelyt đề xuất món khi ăn ngoài, ăn tại nhà hoặc tự nấu; đồng thời cảnh báo thành phần cần hạn chế theo health profile.",
     icon: Utensils,
   },
   {
@@ -97,8 +97,9 @@ export default function ScrollModelSection({
 
   return (
     <section
+      id="process"
       ref={sectionRef}
-      className="relative h-screen overflow-hidden bg-gradient-to-br from-[#f4f7fd] via-white to-[#edf8f4]"
+      className="relative h-screen scroll-mt-20 overflow-hidden bg-gradient-to-br from-[#f4f7fd] via-white to-[#edf8f4]"
     >
       {/* BACKGROUND DECORATION */}
       <div className="pointer-events-none absolute -left-40 top-20 h-80 w-80 rounded-full bg-emerald-200/30 blur-3xl" />

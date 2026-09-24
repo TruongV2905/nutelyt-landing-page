@@ -12,7 +12,7 @@ const bgImage =
 
 export default function CTASection() {
   return (
-    <section className="bg-[#f4f7fd] px-4 py-16 sm:px-6 lg:px-8">
+    <section id="get-started" className="scroll-mt-20 bg-[#f4f7fd] px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="relative overflow-hidden rounded-[36px] border border-emerald-100 bg-white shadow-sm">
           {/* Background image blur */}
@@ -61,20 +61,20 @@ export default function CTASection() {
             </h2>
 
             <p className="mt-5 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
-              Tham gia cộng đồng sống khỏe cùng Nutelyt AI và làm chủ sức khỏe
-              của bạn.
+              Khám phá cách Nutelyt hiểu nhu cầu của bạn và biến dữ liệu sức
+              khỏe thành gợi ý ăn uống đơn giản, thực tế, cá nhân hóa.
             </p>
 
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
-              <button className="group inline-flex items-center gap-3 rounded-2xl border border-emerald-100 bg-white/75 px-7 py-3.5 text-sm font-bold text-slate-800 shadow-sm backdrop-blur-md transition hover:-translate-y-0.5 hover:bg-white">
+              <a href="#process" className="group inline-flex items-center gap-3 rounded-2xl border border-emerald-100 bg-white/75 px-7 py-3.5 text-sm font-bold text-slate-800 shadow-sm backdrop-blur-md transition hover:-translate-y-0.5 hover:bg-white">
                 <Play className="h-5 w-5 fill-emerald-600 text-emerald-600" />
-                Tải trên Google Play
-              </button>
+                Xem Nutelyt hoạt động
+              </a>
             </div>
 
             <div className="mt-8 flex items-center gap-2 text-sm text-slate-500">
               <Download className="h-4 w-4 text-emerald-700" />
-              Miễn phí tải về, dễ dàng bắt đầu trong vài phút
+              Dễ dàng tìm lựa chọn phù hợp cho bữa ăn tiếp theo
             </div>
           </div>
         </div>

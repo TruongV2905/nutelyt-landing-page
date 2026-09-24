@@ -11,21 +11,21 @@ const steps = [
     step: "Bước 2",
     title: "Chọn nhu cầu",
     description:
-      "Lựa chọn chế độ ăn ngoài, nấu tại nhà hoặc chuẩn bị cho cả gia đình.",
+      "Chọn ăn ngoài, chọn món để ăn tại nhà hoặc tự nấu món bạn muốn.",
     side: "right",
   },
   {
     step: "Bước 3",
     title: "Nhận phân tích & Gợi ý AI",
     description:
-      "Nhận ngay báo cáo dinh dưỡng chi tiết và lời khuyên tối ưu cho mỗi bữa ăn.",
+      "Nhận đề xuất món ăn, thực đơn và khẩu phần phù hợp với health profile của bạn.",
     side: "left",
   },
 ];
 
 export default function HowItWorksSection() {
   return (
-    <section className="bg-[#f4f7fd] px-4 py-20 sm:px-6 lg:px-8">
+    <section id="how-it-works" className="scroll-mt-20 bg-[#f4f7fd] px-4 py-20 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         {/* TITLE */}
         <div className="text-center">

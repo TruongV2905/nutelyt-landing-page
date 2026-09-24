@@ -1,4 +1,4 @@
-import { ChefHat, ScanBarcode, UsersRound, Utensils } from "lucide-react";
+import { ChefHat, ScanBarcode, Utensils } from "lucide-react";
 
 const features = [
   {
@@ -10,18 +10,18 @@ const features = [
     iconColor: "text-emerald-700",
   },
   {
-    title: "Nấu ăn tại nhà",
+    title: "Chọn món ăn tại nhà",
     description:
-      "Gợi ý công thức nấu ăn dựa trên nguyên liệu có sẵn và mục tiêu calo, dinh dưỡng trong ngày.",
-    icon: ChefHat,
+      "Khi ăn tại nhà, Nutelyt đề xuất món phù hợp để bạn dễ dàng lựa chọn hoặc đặt món theo health profile.",
+    icon: Utensils,
     iconBg: "bg-blue-100",
     iconColor: "text-blue-700",
   },
   {
-    title: "Thực đơn gia đình",
+    title: "Tự nấu tại nhà",
     description:
-      "Xây dựng thực đơn cân bằng cho cả nhà, tối ưu cho nhiều thế hệ và quản lý ngân sách đi chợ.",
-    icon: UsersRound,
+      "Chọn món muốn nấu và nhận thực đơn, công thức cùng khẩu phần được điều chỉnh theo health profile của bạn.",
+    icon: ChefHat,
     iconBg: "bg-orange-100",
     iconColor: "text-orange-700",
   },
@@ -37,7 +37,7 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <section className="bg-[#f4f7fd] px-4 py-16 sm:px-6 lg:px-8">
+    <section id="features" className="scroll-mt-20 bg-[#f4f7fd] px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         {/* HEADING */}
         <div className="mx-auto max-w-2xl text-center">
@@ -46,8 +46,8 @@ export default function FeatureSection() {
           </h2>
 
           <p className="mt-4 text-sm leading-6 text-slate-600 sm:text-base">
-            Dù bạn đang ở nhà hay đi tiệc, Nutelyt AI luôn đồng hành để đảm bảo
-            mỗi bữa ăn đều hướng tới sức khỏe.
+            Dù ăn ngoài, chọn món tại nhà hay tự nấu, mọi đề xuất của Nutelyt
+            đều được đối chiếu với health profile của riêng bạn.
           </p>
         </div>
 

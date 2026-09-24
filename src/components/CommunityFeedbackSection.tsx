@@ -13,9 +13,9 @@ const testimonials = [
   },
   {
     content:
-      "Mình rất thích chế độ thực đơn gia đình. Vừa đảm bảo con đủ chất, vừa giúp mình kiểm soát ngân sách đi chợ cực kỳ hiệu quả.",
+      "Khi ăn ở nhà, mình có thể chọn món muốn nấu rồi nhận công thức và khẩu phần phù hợp với mục tiêu dinh dưỡng của mình.",
     name: "Minh Thư",
-    role: "Nội trợ hiện đại",
+    role: "Người dùng Nutelyt",
   },
   {
     content:

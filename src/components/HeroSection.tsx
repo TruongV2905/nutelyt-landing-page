@@ -1,22 +1,8 @@
 import { AlertTriangle, BarChart3, Sparkles } from "lucide-react";
 
 export default function HeroSection() {
-  const users = [
-    {
-      name: "User 1",
-      img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&h=80&q=80",
-    },
-    {
-      name: "User 2",
-      img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&h=80&q=80",
-    },
-    {
-      name: "User 3",
-      img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=80&h=80&q=80",
-    },
-  ];
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-white via-[#f5fbfb] to-[#eef7fb]">
+    <section id="top" className="relative scroll-mt-20 overflow-hidden bg-gradient-to-br from-white via-[#f5fbfb] to-[#eef7fb]">
       <div className="mx-auto grid min-h-[460px] max-w-7xl grid-cols-1 items-center gap-10 px-4 py-10 sm:px-6 lg:grid-cols-2 lg:px-8">
         {/* LEFT CONTENT */}
         <div className="max-w-2xl">
@@ -26,42 +12,29 @@ export default function HeroSection() {
           </div>
 
           <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-[52px]">
-            Tối ưu hóa{" "}
-            <span className="text-emerald-700">Sức khỏe Cá nhân</span> thông qua
-            Dinh dưỡng AI
+            Biến dữ liệu sức khỏe thành{" "}
+            <span className="text-emerald-700">lựa chọn ăn uống phù hợp</span>
           </h1>
 
           <p className="mt-5 max-w-xl text-base leading-7 text-slate-600 sm:text-lg">
-            Theo dõi chỉ số sức khỏe, phân tích khẩu phần ăn và nhận lộ trình
-            dinh dưỡng thông minh được thiết kế riêng cho mục tiêu của bạn.
+            Nutelyt là trợ lý dinh dưỡng AI đề xuất món khi ăn ngoài, ăn tại nhà
+            hoặc tự nấu — luôn dựa trên health profile của riêng bạn.
           </p>
 
           <div className="mt-7 flex flex-col gap-4 sm:flex-row">
-            <button className="rounded-md bg-emerald-700 px-8 py-3 text-sm font-bold text-white shadow-lg shadow-emerald-900/20 transition hover:bg-emerald-800">
-              Dùng thử miễn phí
-            </button>
+            <a href="#get-started" className="rounded-md bg-emerald-700 px-8 py-3 text-center text-sm font-bold text-white shadow-lg shadow-emerald-900/20 transition hover:bg-emerald-800">
+              Bắt đầu khám phá
+            </a>
 
-            <button className="inline-flex items-center justify-center gap-2 rounded-md border-2 border-emerald-700 bg-white px-8 py-3 text-sm font-bold text-emerald-700 transition hover:bg-emerald-50">
+            <a href="#features" className="inline-flex items-center justify-center gap-2 rounded-md border-2 border-emerald-700 bg-white px-8 py-3 text-sm font-bold text-emerald-700 transition hover:bg-emerald-50">
               <BarChart3 size={17} />
               Khám phá tính năng
-            </button>
+            </a>
           </div>
 
           <div className="mt-8 flex items-center gap-4">
-            <div className="flex -space-x-3">
-              {users.map((user) => (
-                <img
-                  key={user.name}
-                  src={user.img}
-                  alt={user.name}
-                  className="h-9 w-9 rounded-full border-2 border-white object-cover shadow"
-                />
-              ))}
-            </div>
-
-            <p className="text-sm text-slate-500">
-              <span className="font-semibold text-slate-600">+15,000</span>{" "}
-              người dùng đang tối ưu sức khỏe
+            <p className="text-sm font-medium text-slate-600">
+              Cá nhân hóa · Thực tế · Dễ áp dụng mỗi ngày
             </p>
           </div>
         </div>

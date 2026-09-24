@@ -1,27 +1,26 @@
 import { CheckCircle2 } from "lucide-react";
 
 const benefits = [
-  "Quản lý nhiều hồ sơ sức khỏe trong một tài khoản",
-  "Tối ưu hóa ngân sách và thực đơn đi chợ hằng tuần",
-  "Báo cáo sức khỏe tổng hợp cho cả gia đình",
+  "Đề xuất món phù hợp khi ăn ngoài",
+  "Gợi ý món để lựa chọn hoặc đặt khi ăn tại nhà",
+  "Lên thực đơn và công thức tự nấu theo món bạn chọn",
 ];
 
-export default function FamilyCareSection({}) {
+export default function FamilyCareSection() {
   return (
-    <section className="bg-white px-4 py-10 sm:px-6 lg:px-8">
+    <section id="personalization" className="scroll-mt-20 bg-white px-4 py-10 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="grid overflow-hidden rounded-[28px] border border-emerald-100 bg-[#edf8fa] shadow-sm lg:grid-cols-2">
           {/* LEFT CONTENT */}
           <div className="flex flex-col justify-center px-8 py-12 sm:px-12 lg:px-14">
             <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-              Chăm sóc sức khỏe đa thế hệ
+              Mọi đề xuất đều bắt đầu từ health profile
             </h2>
 
             <p className="mt-7 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
-              Nutelyt giúp bạn quản lý nhu cầu dinh dưỡng khác biệt cho từng
-              thành viên — từ trẻ nhỏ đang lớn đến ông bà cần chế độ ăn đặc
-              biệt. Đồng thời theo dõi chi tiêu và lập kế hoạch mua sắm thông
-              minh.
+              Nutelyt đối chiếu mục tiêu dinh dưỡng, tình trạng sức khỏe, chỉ số
+              cơ thể, sở thích và các thành phần cần hạn chế trước khi đề xuất.
+              Vì vậy, lựa chọn trong từng hoàn cảnh đều phù hợp với chính bạn.
             </p>
 
             <div className="mt-9 space-y-5">
@@ -39,7 +38,7 @@ export default function FamilyCareSection({}) {
           <div className="relative min-h-[320px] bg-gradient-to-br from-emerald-50 via-white to-lime-50 lg:min-h-[420px]">
             <img
               src="/family_care_image.png"
-              alt=""
+              alt="Gợi ý dinh dưỡng cá nhân hóa theo health profile"
               className="w-full object-contain"
             />
 
